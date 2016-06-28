@@ -11,7 +11,7 @@ services:
     ports:
       - '80:80'
     volumes:
-      - /vagrant/html:/var/www/html
+      - ./html:/var/www/html
     depends_on:
       - mysql
 volumes:
